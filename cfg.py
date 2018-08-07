@@ -81,7 +81,7 @@ def print_cfg_nicely(blocks):
             prev_height = height
             prev_filters = filters
             out_widths.append(prev_width)
-            out_heights.append(prev_height)
+            out_heights.append(prev_height) 
             out_filters.append(prev_filters)
         elif block['type'] == 'maxpool':
             pool_size = int(block['size'])
