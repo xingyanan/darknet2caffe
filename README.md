@@ -1,2 +1,7 @@
 # Darknet to Caffe
-yolov2.cfg and yolov2.weights to yolov2.prototxt and yolov2.caffemodel
+### 依赖库：
+    python2.7
+    pycaffe
+    numpy
+    
+
