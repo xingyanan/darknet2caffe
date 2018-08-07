@@ -381,3 +381,4 @@ if __name__ == '__main__':
     net_info = parse_prototxt(sys.argv[1])
     print_prototxt(net_info)
     save_prototxt(net_info, 'tmp.prototxt')
+ 
